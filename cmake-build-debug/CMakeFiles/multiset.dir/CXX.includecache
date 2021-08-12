@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/vins/CLionProjects/multiset/Multiset.h
+cstdlib
+-
+iterator
+-
+cstddef
+-
+ostream
+-
+
+/home/vins/CLionProjects/multiset/main.cpp
+iostream
+-
+cassert
+-
+Multiset.h
+/home/vins/CLionProjects/multiset/Multiset.h
+
